@@ -1,0 +1,116 @@
+.slide_2_banner {
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 50em;
+  margin-left: 15em;
+  top: 50vh;
+  border-radius: 20px;
+}
+.slide_2_banner_h5 {
+  font-size: 4em;
+}
+.carousel_btn {
+  position: relative;
+  margin-top: -80vh;
+  margin-left: 90vh;
+  background-color: #e36520;
+  color: #fff;
+  font-size: 2em;
+}
+.prayer {
+  margin-top: 0.02em;
+}
+.prayertext {
+  margin-bottom: 5em;
+  margin-right: 70em;
+  width: 59em;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
+
+.caro__p1 {
+  font-size: 2em;
+  /* text-transform: uppercase; */
+  font-family: "Merriweather", serif;
+  line-height: 0.5em;
+}
+
+.caro__p2 {
+  font-size: 4em;
+  font-weight: 800;
+  line-height: 1em;
+  font-family: "Poppins", sans-serif;
+}
+.caro__p3 {
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 0.5em;
+}
+/* .donate__btn{
+color: #fff;
+padding:0px 30px;
+font-size: 1.8em;
+margin-top: 2em;
+
+}
+.live__btn{
+  color: #fff;
+  padding:0px 30px 3px 30px;
+  font-size: 1.8em;
+  margin-top: 2em;
+  margin-right: 8px;
+} */
+.btn__box {
+  margin-top: 4em;
+}
+.btn-primary {
+  margin-right: 2em;
+  font-size: 1.4em;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #000;
+  font-size: 1.5em;
+}
+
+.btn-secondary {
+  font-size: 1.4em;
+  color: #fff;
+}
+.btn-secondary:hover {
+  background-color: #fff;
+  font-size: 1.5em;
+}
+
+@media (max-width: 767px) {
+  .carousel {
+    margin-top: 5.4em;
+  }
+
+ .prayertext {
+  margin-bottom: 0em;
+  /* margin-right: 2em; */
+  width: 20em;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 1px;
+ }
+ .carobtn{
+  font-size: 1em;
+ }
+ .caro__p1{
+  font-size: 1em;
+ }
+ .caro__p2{
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 1em;
+  font-family: "Poppins", sans-serif; }
+ .caro__p3{
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 0.5em; }
+}

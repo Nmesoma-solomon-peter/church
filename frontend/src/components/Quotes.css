@@ -1,0 +1,32 @@
+.quotes{
+    /* background-image:url('../assets/hands.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(47,85,127,.7);
+    background-repeat:no-repeat;
+    background-size:cover; 
+    background-attachment: fixed; */
+    background-color: rgb(47, 85, 127);
+    padding: 5em;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.quote{
+    font-size: 4em;
+}
+.qsign{
+    font-size: 3em;
+}
+.qsignleft{
+    font-size: 3em;
+    float: right;
+}
+.qinner{
+   text-align: center;
+}
+
+@media (max-width:767px) {
+    .quote{
+        font-size: 2.2em;
+    }
+    
+}

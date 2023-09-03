@@ -1,0 +1,27 @@
+.minis{
+/* background-image:url(../assets/minis.jpg); 
+    box-shadow: inset 0 0 0 1000px rgba(47,85,127,.8); 
+    background-repeat:no-repeat;
+    background-size:cover;  */
+
+    background-image: url(../assets/minis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    height: 35vw;
+    box-sizing: border-box;
+}
+.allmis__inner{
+    padding-top: 20em;
+    padding-left: 3em;
+    color: #fff;
+}
+.minis__p1{
+    font-size: 5em;
+    font-weight: 500;
+}
+.allmis__inner a{
+color: #fff;
+text-decoration: none;
+}

@@ -1,0 +1,100 @@
+.lwgg{
+    background-color: #E26520;
+    /* background: linear-gradient(to bottom right, #E26520,#fff); */
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.lwgg_introhead{
+    color: #fff;
+    font-size: 3em;
+    font-weight:600 ;
+    text-align: center;
+    padding-top: 2em;
+}
+.lwgg_introp{
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 2.5em;
+}
+.about_ch{
+    background-image:url('../assets/bible.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(47,85,127,.5);
+    background-repeat:no-repeat;
+    background-size:cover; 
+    background-position: center;
+    border-radius: 20px;
+    height: 500px;
+    padding-top:2em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+    /* background-attachment: fixed; */
+}
+.worship_ch{
+    background-image:url('../assets/hands.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(47,85,127,.5);
+    background-repeat:no-repeat;
+    background-size:cover; 
+    background-position: center;
+    border-radius: 20px;
+    height: 500px;
+    padding-top:2em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+}
+.involve_ch{
+    background-image:url('../assets/upcoming.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(47,85,127,.5);
+    background-repeat:no-repeat;
+    background-size:cover; 
+    background-position: center;
+    border-radius: 20px;
+    height: 500px;
+    padding-top:2em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+}
+
+.give_ch{
+    background-image:url('../assets/give.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(47,85,127,.5);
+    background-repeat:no-repeat;
+    background-size:cover; 
+    background-position: center;
+    border-radius: 20px;
+    height: 500px;
+    padding-top:2em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+
+}
+
+.lwggcol_p{
+    /* margin-top: 20px; */
+    width: 8em;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #fff;
+
+
+}
+
+.lwggcol_head{
+    margin-top: 320px;
+    width: 8em;
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.lwgg__row{
+    /* justify-content:space-around; */
+    padding-bottom: 5em;
+}
+
+@media (max-width:767px) {
+    .lwgg_card{
+        margin-bottom: 5em;
+    }
+    
+}

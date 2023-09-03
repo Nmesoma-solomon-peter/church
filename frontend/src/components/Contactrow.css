@@ -1,0 +1,55 @@
+.getheading {
+  font-size: 3em;
+  font-weight: 700;
+  width: 350px;
+  color: #fff;
+  line-height: 1em;
+  margin-bottom: 1.5em;
+}
+.form-control {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+/* .form-control:target{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+} */
+input:focus,
+input:active {
+  /* border-color: transparent; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: 1px solid #3e8391;
+}
+.contacts {
+  color: #fff;
+  font-size: 1.2em;
+  width: 350px;
+}
+.contact_box {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  /* margin-bottom: 10%; */
+}
+.follow {
+  color: #fff;
+  font-size: 2em;
+}
+
+.social_icon {
+  font-size: 2em;
+  color: #fff;
+  margin-right: 1em;
+}
+.form-label{
+    font-weight: 600;
+    color: #fff;
+}
+/* .socials{
+    justify-content: space-around;
+} */

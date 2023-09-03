@@ -1,0 +1,24 @@
+.contact_banner{
+    background-image:url('../assets/hands.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(47,85,127,.8);
+    background-repeat:no-repeat;
+    background-size:cover; 
+}
+
+.banna_a{
+    /* color: #3e8391; */
+    color: #fff;
+    text-decoration: none;
+}
+.contInner{
+    padding: 8% 0 5%;
+    text-align: center;
+    color: #fff;
+}
+.l1{
+    font-size: 1.53em;
+}
+.l2{
+    font-size: 2.5em;
+    font-weight: 500;
+}

@@ -1,0 +1,165 @@
+.ministry {
+  background-color: #fff;
+  padding-bottom: 4em;
+  color: #2f557f;
+  /* background-image: url('../assets/freepicbg.jpg'); */
+  /* background: url('../assets/freepicbg.jpg'), #6DB3F2;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover; */
+}
+.Minis {
+  text-align: left;
+  padding: 5em 0;
+}
+.minis_intro_head {
+  font-size: 5em;
+  font-weight: 600;
+}
+.minis_intro_p {
+  font-size: 2em;
+  font-weight: 400;
+}
+.minisHead {
+  font-size: 2em;
+  line-height: 1em;
+  font-weight: 500;
+  padding-top: 0.2em;
+  padding-bottom: 0.5em;
+  /* color: #2f557f; */
+}
+.minisP {
+  font-size: 1.2em;
+  /* color: #2f557f; */
+}
+.minislogo {
+  width: 100px;
+  float: right;
+}
+.colLine {
+  border-right: 1px solid #e5e5e5;
+}
+/* .youth:before{
+    background-color:rgba(0, 0, 0, 1);
+    position: relative;
+    
+} */
+.youth:hover {
+  /* background-image:url('../assets/necker.jpg'); */
+  background-image: url("../assets/AYM_1.webp");
+  box-shadow: inset 0 0 0 1000px rgba(47, 85, 127, 0.7);
+  /* background-color: #000; */
+  color: #fff;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border: none;
+}
+.men:hover {
+  background-image: url("../assets/amo_logo.png");
+  box-shadow: inset 0 0 0 1000px rgba(47, 85, 127, 0.7);
+  /* background-color: #000; */
+  color: #fff;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border: none;
+}
+.women:hover {
+  background-image: url("../assets/awm_logo.png");
+  box-shadow: inset 0 0 0 1000px rgba(47, 85, 127, 0.7);
+  /* background-color: #000; */
+  color: #fff;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border: none;
+}
+.children:hover {
+  background-image: url("../assets/children_logo.png");
+  box-shadow: inset 0 0 0 1000px rgba(47, 85, 127, 0.7);
+  /* background-color: #000; */
+  color: #fff;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border: none;
+}
+
+.mini_link {
+  color: #fff;
+}
+.mini_link:hover {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.men {
+  background-image: url("../assets/amo_logo.png");
+  box-shadow: inset 0 0 0 1000px rgba(47, 85, 127, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  height: 500px;
+  padding-top: 2em;
+  padding-bottom: 5em;
+  padding-left: 2em;
+}
+.youth {
+background-image:url('../assets/aylogo.png');
+box-shadow: inset 0 0 0 1000px rgba(47,85,127,.5);
+background-repeat:no-repeat;
+background-size:cover; 
+background-position: center;
+border-radius: 20px;
+height: 500px;
+padding-top:2em;
+padding-bottom: 5em;
+padding-left: 2em;
+}
+.women {
+background-image:url('../assets/awm_logo.png');
+box-shadow: inset 0 0 0 1000px rgba(47,85,127,.5);
+background-repeat:no-repeat;
+background-size:cover; 
+background-position: center;
+border-radius: 20px;
+height: 500px;
+padding-top:2em;
+padding-bottom: 5em;
+padding-left: 2em;
+}
+.children {
+  background-image: url("../assets/children_logo.png");
+  box-shadow: inset 0 0 0 1000px rgba(47, 85, 127, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  height: 500px;
+  padding-top: 2em;
+  padding-bottom: 5em;
+  padding-left: 2em;
+}
+
+@media (max-width: 767px) {
+.minis_intro_head{
+  font-size: 2.5em;
+}
+.minis_card {
+  margin-bottom: 5em;
+}
+}

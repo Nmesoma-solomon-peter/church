@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 function Header() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-primary header">
         <div className="container-fluid">
           <a className="navbar-brand" href="#"><img src={SDA_logo} className='logo' /></a>
 
@@ -24,7 +24,7 @@ function Header() {
               <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div className="offcanvas-body bg-primary">
-              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <Link to="/" style={{ textDecoration: 'none' }}>
                     {/* <p className="nav-link" href="#">Home</p> */}
@@ -32,37 +32,53 @@ function Header() {
                   </Link>
                 </li>
 
+                <li className='nav-item dropdown'>
+                  <a className='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded='false'>About us</a>
+                  <ul className='dropdown-menu dropdownabout' aria-labelledby='navbarDropdown'>
+                    <Link to="/mission" style={{ textDecoration: 'none' }}>
+                      <li><a className='dropdown-item nav-linkdp' href='#'>Our Mission</a></li>
+                    </Link>
+                    <Link to="/believe" style={{ textDecoration: 'none' }}>
+                      <li><a className='dropdown-item nav-linkdp' href='#'>What we believe</a></li>
+                    </Link>
+                    <Link to="/gallery" style={{ textDecoration: 'none' }}>
+                      <li><a className='dropdown-item nav-linkdp' href='#'>Gallary</a></li>
+                    </Link>
+                  </ul>
+                </li>
+
                 <li className="nav-item">
-                  <Link to="/" style={{ textDecoration: 'none' }}>
-                    {/* <p className="nav-link" href="#">Home</p> */}
-                    <a className="nav-link" href="#">About us </a>
+                  <Link to="/media" style={{ textDecoration: 'none' }}>
+                    <a className="nav-link">Media </a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link to="/" style={{ textDecoration: 'none' }}>
+                  <Link to="/ministries" style={{ textDecoration: 'none' }}>
+                    <a className="nav-link">Ministries</a>
+                  </Link>
+                </li>
+
+
+                <li className="nav-item">
+                  <Link to="/contact" style={{ textDecoration: 'none' }}>
                     <a className="nav-link" href="#">Contact Us </a>
                   </Link>
                 </li>
 
-                <li className="nav-item">
-                  <Link to="/" style={{ textDecoration: 'none' }}>
-                    <a className="nav-link" href="#">Media </a>
-                  </Link>
-                </li>
-
-                <button className='btn btn-lg bg-secondary text-white'>
-                <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>
-                Payment/Donations
-                  </Link>
-                  </button>
+                
               </ul>
+              <Link to="/payments" style={{ textDecoration: 'none' }}>
+                  <button className='btn btn-lg header_btn'>
+                    Payment/Donations
+                  </button>
+                </Link>
             </div>
           </div>
         </div>
 
-      </nav>
-    </div>
+      </nav >
+    </div >
   )
 }
 

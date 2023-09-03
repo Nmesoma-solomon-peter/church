@@ -1,0 +1,48 @@
+.welcome{
+    padding-top:4em ;
+    padding-bottom: 4em;
+}
+.intro{
+    margin: auto;
+    width:85%
+}
+.welcome_p{
+    /* font-family: "Noto Sans", Tofu;; */
+    /* color: #2f557f; */
+    font-family: 'Merriweather', serif;
+    color: #000;
+    width: 100%;
+    margin: auto;
+    font-size: 2.4em;
+    font-weight: 600;
+    text-align: center;
+    /* word-spacing: 2px; */
+}
+.address_box{
+    text-align: center;
+}
+.introimg{
+    width: 100%;
+}
+.welcome__img{
+    width: 38em;
+    height: 480px;
+    border-radius: 30px;
+}
+.w_introsubp{
+    font-family: 'Merriweather', serif;
+    font-size: 1.8em;
+}
+
+@media (max-width: 767px) {
+.introimg{
+    box-sizing: border-box;
+}
+.welcome__img{
+width: 21em;
+object-fit: contain;
+}
+.w_introsubp{
+    margin-top: 0.40em;
+}
+}

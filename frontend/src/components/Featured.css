@@ -1,0 +1,37 @@
+.featured{
+    width: 100%;
+}
+.featured__img{
+    width:38em;
+}
+.featured_p1{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.featured_p2{
+    font-size: 3.8em;
+    line-height: 1;
+    font-weight: 600;
+}
+.featured_p3{
+    font-size: 1.2em;
+    padding: 1.2em 0 ;
+}
+.f_row{
+    padding-bottom: 5em;
+}
+
+@media (max-width:767px) {
+   
+    .featured__img{
+        width:20em;
+        margin-bottom: 3em;
+        object-fit: contain;
+    }
+    .featured_p2{
+        font-size: 3em;
+    }
+    .featured_btn{
+        margin-bottom: 1.8em;
+    }
+}

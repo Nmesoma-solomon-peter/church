@@ -1,3 +1,6 @@
 .container-fluid{
     padding: 0em 3em;
 }
+.btn-lg {
+    border-radius: 30px;
+}
