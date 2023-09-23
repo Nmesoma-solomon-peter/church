@@ -25,7 +25,7 @@ function Welcome() {
                     <div className='welcome__intro'>
                         <p className='w_introsubp'>Welcome to Seventh-day Adventist church Iheorji-Umuogele</p>
                         <p></p>
-                        <p>The Seventh-day Adventist Church, often referred to as the SDA Church, is a Protestant Christian denomination that emerged in the mid-19th century. Founded on the principles of the Second Great Awakening, the church places a strong emphasis on the Second Coming of Jesus Christ and the observance of the Sabbath, which is traditionally observed from Friday evening to Saturday evening....</p>
+                        <p className='welcome_intro_para'>The Seventh-day Adventist Church, often referred to as the SDA Church, is a Protestant Christian denomination that emerged in the mid-19th century. Founded on the principles of the Second Great Awakening, the church places a strong emphasis on the Second Coming of Jesus Christ and the observance of the Sabbath, which is traditionally observed from Friday evening to Saturday evening....</p>
 
                         <button className='btn btn-primary btn-lg'>More About Us</button>
 

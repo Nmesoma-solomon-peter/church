@@ -35,14 +35,29 @@
 }
 
 @media (max-width: 767px) {
+.welcome_p{
+    font-size: 2em
+}
 .introimg{
     box-sizing: border-box;
+    text-align: center;
+    width:100%
 }
 .welcome__img{
-width: 21em;
+width: 18em;
 object-fit: contain;
+margin-bottom: -6em;
 }
 .w_introsubp{
     margin-top: 0.40em;
 }
+.w_introsubp{
+    font-family: 'Merriweather', serif;
+    font-size: 1.46em;
+    font-weight:900;
+}
+.welcome_intro_para{
+    font-size: 1.05;
+}
+
 }

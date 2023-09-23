@@ -96,5 +96,16 @@
     .lwgg_card{
         margin-bottom: 5em;
     }
-    
+    .lwgg_introhead{
+        font-size: 2.7em;
+    }
+    .lwgg_introp{
+        color: #fff;
+        font-size: 1.7em;
+        text-align: center;
+        padding-bottom: 2.5em;
+    }
+    .lwggcol_head{
+        font-size: 1.7em;
+    }
 }
